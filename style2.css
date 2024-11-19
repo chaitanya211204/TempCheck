@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+body{
+    background-image: linear-gradient(to right top, #8d37c4, #8a2fcd, #8627d7, #801ee1, #7912eb);  
+}
+
+.current{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;    
+    text-align: center;
+    border-color: black;
+    border-radius: 18px;
+    margin-top: 90px;
+    background-image: linear-gradient(to bottom, #041f46, #11235c, #2a2470, #491e80, #6a088c);
+}
+
+.search{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    padding: 5px 5px;
+    margin-right: 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    height: 60px;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.search i{
+    font-size: 2rem;
+}
+
+.weather-icon{
+    width: 200px;
+    height: 200px;
+}
+
+.temp{
+    color: orange;
+    font-size: 4rem;
+    font-weight: 100;
+    margin-top: -20px;
+}
+
+.city{
+    color: orange;
+    font-size: 2rem;
+    font-weight: 50;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+.humid{
+    height: 100px;
+    mix-blend-mode: multiply;
+    background-size: cover;
+}
+
+.wind{
+    height: 100px;
+}
+
+.col{
+    display: block;
+    align-items:center ;
+    text-align: left;
+}
+
+.col img{
+    width: 100px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -10px;
+    font-weight: 10;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    color: gainsboro;
+    font-size: 3.5rem;
+    /* margin-top: -30px; */
+    text-align: center;
+    margin-left: 50px;
+    display: none;
+}
+
+#forecast{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    position: relative;
+    font-size: 2rem;
+    border-radius: 30px;
+    border-color: orange;
+    color: #7912eb;
+    background-color: orange;
+    width: 600px;
+    margin: auto;
+    margin-top: 10px;
+}
