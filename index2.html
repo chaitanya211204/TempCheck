@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get to Know here</title>
+    <link rel = "stylesheet" href="style2.css">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="current">
+        <div class="search">
+            <input type="text" id="searchin" placeholder="Enter city name" spellcheck="false">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="error" id="error1">
+            <p>Invalid City</p>
+        </div>
+        <div class="weather">
+            <img src="cloudy.png" class="weather-icon" id="wthr">
+            <h1 class="temp">21°C</h1>
+            <h2 class="city">Delhi</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="humidity.png" class="humid">
+                    <p class="humidity">50</p>
+                    <p>Humidity</p>
+                </div>
+                <div class="col">
+                    <img src="wind.png" class="wind">
+                    <p class="Wind">50</p>
+                    <p style="font-weight: 10;">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
